@@ -3,6 +3,13 @@
 Target of the excercise is to set up the ESP32 DevKitC device with Mongoose OS and connect it to AWS IOT gateway. 
 We will also connect a BMP180 temperature and barometric pressure sensor module.
 
+## Pre-requisites
+
+Install the MongooseOS [MOS tool](https://mongoose-os.com/docs/userguide/quickstart.md) and the [AWS CLI](https://aws.amazon.com/cli/).
+
+You will also need to install the Silabs USB to UART [drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+to be able to work with the Espressif ESP32 DevKitC board.
+
 ## Excercise 1 - Set up the device as Internet Button
 
 The [MongooseOS](https://mongoose-os.com/) makes it really easy and fast to set the ESP32 and other supported devices up as
