@@ -44,6 +44,7 @@ let BMP180 = {
   },
 
   readTemp: function(handle) {
+    // TODO: Can you make this function more efficient? :)
     // Read calibration data
     let ac5 = I2C.readRegW(handle, addr.ADDR, addr.AC5_MSB);
     let ac6 = I2C.readRegW(handle, addr.ADDR, addr.AC6_MSB);
