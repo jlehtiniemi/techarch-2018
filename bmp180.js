@@ -20,7 +20,7 @@ let getSigned = function(raw) {
   let sign = raw >>> 15;
   if (sign === 1) {
     // Convert the negative two's complement. Use bit mask to take only 16 LSB 
-    // since Javascript uses 64-bit signed integers for the calculation
+    // since Javascript uses 32-bit signed integers for the calculation
     val = ((~val + 1) & 0xFFFF) * -1;
   }
   return val;
