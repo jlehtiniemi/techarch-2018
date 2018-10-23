@@ -54,7 +54,7 @@ In this excercise we will use the I2C bus to connect to the BMP180 temperature a
   * Fiqure out how to connect the BMP180 module to the ESP32. Some tips below:
     * Check the `config0.json` file found in the device flash memory. Look for I2C configuration
     * Be extra careful when connecting supply voltage **3.3V and GND** pins. Corresponding pins in the BMP180 module are **VIN and GND**
-    * Don't look at the online pinout diagrams found online! The device configuration is slightly different from those
+    * Don't look at the pinout diagrams found online! The device configuration is slightly different from what is generally available.
   * Clone the git repository to a separate folder
   * Write code to read the temperature sensor data. Use the provided `bmp180.js` library to interface with the device.
   * Update the read sensor data to the AWS Thing Shadow
