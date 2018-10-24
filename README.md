@@ -44,6 +44,7 @@ To set up the ESP32 with AWS IoT, follow the instructions at [https://mongoose-o
 
 You can use the `mos` tool to interact with the ESP32 device. Below are some useful commands:
 
+  * `mos ui` - Start the interactive UI from command line
   * `mos help` - Help on the different mos tool commands
   * `mos ls` - List all files in the device flash memory
   * `mos put <filename>` - Transfer file to the flash memory
