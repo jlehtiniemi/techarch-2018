@@ -15,7 +15,7 @@ to be able to work with the Espressif ESP32 DevKitC board.
 The [MongooseOS](https://mongoose-os.com/) makes it really easy and fast to set the ESP32 and other supported devices up as
 IoT-connected device. Mongoose supports AWS, Google and Azure IoT gateways out-of-the-box.
 
-To set up the ESP32 with AWS IoT, follow the instructions at [https://mongoose-os.com/docs/cloud/aws.md](https://mongoose-os.com/docs/cloud/aws.md)
+To set up the ESP32 with AWS IoT, follow the instructions at [https://mongoose-os.com/docs/mos/cloud/aws.md](https://mongoose-os.com/docs/mos/cloud/aws.md)
 
   * AWS CLI access keys will be provided separately
   * For **AWS Region** please use `eu-west-1` as needed
